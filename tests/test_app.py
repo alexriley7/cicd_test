@@ -1,5 +1,5 @@
 import pytest
-from src.app import add
+from src import add
 
 def test_add():
     assert add(2, 3) == 55
